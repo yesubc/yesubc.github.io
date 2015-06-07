@@ -1,0 +1,111 @@
+body, html {
+	min-width: 320px
+}
+div.content {
+	width: auto;
+	margin: 0 20px
+}
+#nav {
+	text-align: left;
+	height: auto;
+	padding-top: 0
+}
+#nav .content {
+	margin: 0
+}
+#nav a.logo {
+	display: block;
+	margin-left: 16px;
+	line-height: 0;
+	height: 70px;
+	padding-top: 7px;
+	top: 0
+}
+#nav a.menu-button {
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: -0.07em;
+	word-spacing: .1em;
+	color: #121b21;
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 125px;
+	height: 70px;
+	text-align: center;
+	line-height: 70px;
+	color: white;
+	font-size: 10pt;
+	background-color: #283136
+}
+#nav ul {
+	display: none;
+	background-color: #283136;
+	height: auto;
+	text-align: center;
+	margin: 0
+}
+#nav li {
+	display: block;
+	height: 50px;
+	border-bottom: solid 1px #232729;
+	margin: 0 20px
+}
+#nav li + li {
+	margin-left: 20px
+}
+#nav li a {
+	display: block;
+	height: 50px;
+	line-height: 54px
+}
+#nav li:last-child {
+	border-bottom: none
+}
+#nav li.active a::after {
+	display: none
+}
+#nav.expanded ul {
+	display: block
+}
+#header {
+	padding-top: 50px
+}
+#header h2 {
+	margin-top: 0;
+	margin-bottom: 30px
+}
+#header h2 > span {
+	font-size: 12pt;
+	padding: 0 25px
+}
+#header h1 {
+	font-size: 24pt;
+	line-height: 24pt;
+	margin-bottom: 10px
+}
+#header p {
+	font-size: 10pt;
+	line-height: 12pt;
+	margin-bottom: 0;
+}
+#header p span {
+	display: inline
+}
+#footer {
+	padding: 14px 0 30px
+}
+#main div.content {
+	padding-top: 43px
+}
+@media screen and (max-width:600px) {
+.index #home-team-photo {
+	width: 100%;
+	height: auto;
+	margin: -10px auto 0
+}
+}
+.index #main div.content {
+	padding-top: 43px
+}

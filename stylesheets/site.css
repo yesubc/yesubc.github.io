@@ -1,0 +1,236 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	font-size: 100%;
+	vertical-align: baseline
+}
+html {
+	line-height: 1
+}
+ol, ul {
+	list-style: none
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+caption, th, td {
+	text-align: left;
+	font-weight: 400;
+	vertical-align: middle
+}
+q, blockquote {
+	quotes: none
+}
+q:before, q:after, blockquote:before, blockquote:after {
+	content: "";
+	content: none
+}
+a img {
+	border: none
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+	display: block
+}
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box
+}
+body, html {
+	font-family: 'Open Sans', sans-serif;
+	color: #535b60;
+	margin: 0;
+	padding: 0;
+	min-width: 950px;
+	background-color: white;
+	-webkit-transform: translateZ(0)
+}
+select {
+	height: 45px
+}
+textarea {
+	height: 256px
+}
+select, input, textarea {
+	width: 100%
+}
+select.error, input.error, textarea.error {
+	margin-bottom: 0
+}
+input[type=submit] {
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: -0.07em;
+	word-spacing: .1em;
+	color: #121b21;
+	font-size: 15px;
+	color: #fff;
+	background: #00afc4;
+	cursor: pointer
+}
+.hide {
+	display: none
+}
+div.content {
+	width: 950px;
+	margin: 0 auto;
+	overflow: hidden;
+ *zoom:1
+}
+div.container {
+	width: 100%;
+	margin: 0 auto
+}
+h1, h2, h3 {
+	text-align: center
+}
+select, input, textarea {
+	-webkit-appearance: none;
+	display: block;
+	margin-bottom: 15px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	line-height: 22px;
+	padding: 10px;
+	background-color: #efefef;
+	border: none
+}
+select.error, input.error, textarea.error {
+	border: solid 2px red
+}
+label.error {
+	color: red
+}
+input[type=image] {
+	padding: 0
+}
+pre {
+	font-family: Courier, monospace;
+	font-size: 14px
+}
+a {
+	text-decoration: none;
+	color: #0388a6
+}
+a:hover {
+	color: #009ce0
+}
+#nav {
+	background-color: #f60;
+	height: 90px;
+	text-align: center;
+	padding-top: 9px;
+	line-height: 32px
+}
+#nav a.logo {
+	display: inline;
+	position: relative;
+	top: 11px;
+	margin-right: 31px
+}
+#nav a.menu-button {
+	display: none
+}
+#nav ul {
+	display: inline;
+	height: 72px;
+	margin: 9px 0
+}
+#nav .active, #nav li:hover a {
+	color: #fff
+}
+#nav li {
+	text-transform: uppercase;
+	letter-spacing: -0.07em;
+	word-spacing: .1em;
+	color: #fff;
+	font-size: 10pt;
+	display: inline;
+	position: relative
+}
+#nav li.active a {
+	color: #fff
+}
+#nav li.active a:after {
+	height: 8px;
+	width: 15px;
+	position: absolute;
+	left: 42%;
+	top: 41px
+}
+#nav li a {
+	color: #fff
+}
+#nav li + li {
+	margin-left: 50px
+}
+#header {
+	background: #121b21 url(../images/kathmandu-panorama.jpg) no-repeat center top;
+	height: 600px;
+	padding: 100px 0
+}
+#header h1 {
+	font-weight: bold;
+	font-size: 46pt;
+	line-height: 46pt;
+	text-transform: uppercase;
+	letter-spacing: -0.07em;
+	word-spacing: .1em;
+	color: #121b21;
+	margin-bottom: 15px;
+	color: #fff;
+}
+#header h2 {
+	text-transform: uppercase;
+	letter-spacing: -0.07em;
+	word-spacing: .1em;
+	color: #fff;
+	margin-top: 3px;
+	margin-bottom: 50px;
+	font-size: 16pt;
+	background-position: 0 8px;
+	letter-spacing: -0.09em
+}
+#header h2 > span {
+	padding: 0 45px;
+	display: inline-block
+}
+#header p {
+	text-align: center;
+	color: #fff;
+	font-size: 14pt;
+	margin: 0 auto 30px auto;
+	line-height: 31px;
+	-webkit-font-smoothing: antialiased
+}
+#header p span {
+	display: block
+}
+#header .content {
+	background: rgba(0,0,0,0.5);
+	padding: 40px;
+}
+#footer {
+	clear: both;
+	padding: 20px 0
+}
+#footer a {
+	color: #535b60
+}
+#footer a.logo {
+	margin: 0 40px;
+	float: left
+}
+#footer p.copyright {
+	text-align: center;
+	font-size: 8pt;
+	line-height: 10pt;
+	color: #121b21;
+}
+.social-links{ padding: 10px 0;}
+.social-links i{ font-size:21px; opacity: .5; margin:0 5px;}
+.social-links i:hover{opacity: 1}
