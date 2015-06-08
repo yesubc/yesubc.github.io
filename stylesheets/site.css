@@ -231,6 +231,6 @@ a:hover {
 	line-height: 10pt;
 	color: #121b21;
 }
-.social-links{ padding: 10px 0;}
+.social-links{ padding: 10px 0; text-align: center}
 .social-links i{ font-size:21px; opacity: .5; margin:0 5px;}
 .social-links i:hover{opacity: 1}
